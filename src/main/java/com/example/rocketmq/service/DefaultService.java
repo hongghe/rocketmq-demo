@@ -13,4 +13,8 @@ public class DefaultService {
     public void defaultMethod() {
         log.info("The name of history.");
     }
+
+    public void getString() {
+        System.out.println("The name of string.");
+    }
 }

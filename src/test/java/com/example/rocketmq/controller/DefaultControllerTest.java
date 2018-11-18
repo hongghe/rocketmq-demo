@@ -3,7 +3,9 @@ package com.example.rocketmq.controller;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 /** 
 * DefaultController Tester. 
@@ -13,6 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 * @version 1.0 
 */
 @SpringBootTest
+@RunWith(SpringRunner.class)
 public class DefaultControllerTest { 
 
 @Before
